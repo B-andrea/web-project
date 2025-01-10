@@ -1,0 +1,47 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin-right: 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionone {
+  display: flex;
+  align-items: center;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-wrap: wrap;
+  width: 90%;
+}
+
+.img-beanie {
+  display: block;
+  height: 400px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
