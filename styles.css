@@ -27,21 +27,26 @@ li {
   align-items: center;
 }
 
-.about me {
+.about-me {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 h1 {
-  text-wrap: wrap;
-  width: 90%;
+  width: 80%;
+  font-size: 55px;
 }
 
 .img-beanie {
   display: block;
-  height: 400px;
-  width: auto;
+  height: auto;
+  width: 300px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
 }
