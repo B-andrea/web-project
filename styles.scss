@@ -21,11 +21,10 @@
     align-items: center;
 }
 
-.intro-text {
+.intro {
     display: flex;
-    flex-direction: column;
     align-items: center;
-
+    padding: 60px;
 }
 
 .about-me {
@@ -79,4 +78,17 @@ footer {
     background-color: white;
     border-radius: 50%;
     padding: 15px;
+}
+
+@media only screen and (max-width: 390px) {
+
+    .header,
+    .cartoon-guy {
+        display: none;
+    }
+}
+
+.cartoon-guy {
+    height: 500px;
+    width: auto;
 }
