@@ -37,7 +37,6 @@ h1 {
     // text-wrap: wrap;
     width: 80%;
     font-size: 55px;
-
 }
 
 .img-beanie {
@@ -55,8 +54,8 @@ h1 {
 }
 
 .icons {
-    height: 120px;
-    width: 120px;
+    height: 72px;
+    width: auto;
 }
 
 .para-beanie {
@@ -80,13 +79,31 @@ footer {
     padding: 15px;
 }
 
+// Any CSS want for mobile mode, add in here
 @media only screen and (max-width: 390px) {
-
-    .header,
-    .cartoon-guy {
+    .desktop-only {
         display: none;
     }
 }
+
+// Any CSS want for desktop mode, add in here
+@media only screen and (min-width: 391px) {
+    .mobile-only {
+        display: none;
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+}
+
 
 .cartoon-guy {
     height: 500px;

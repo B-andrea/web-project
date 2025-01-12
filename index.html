@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="header">
+    <div class="header desktop-only">
         <p>Bonnie Cruz</p>
         <nav>
             <ul>
@@ -27,14 +27,15 @@
             <h1>A Junior Software Developer based in the UK.</h1>
         </div>
         <div>
-            <img class=cartoon-guy src="/Icons/cartoon.svg" alt="Cartoon man on laptop" />
+            <img class="cartoon-guy desktop-only" src="/Icons/cartoon.svg" alt="Cartoon man on laptop" />
         </div>
     </section>
 
     <section class="about-me">
-        <h2>About Me</h2>
+        <h2 class="mobile-only">About Me</h2>
         <img class="img-beanie" src="Guy.jpeg" alt="Picture of guy">
         <div class="para-beanie">
+            <h2 class="desktop-only">About Me</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos placeat maxime porro repellat et
                 recusandae! Facilis sed esse autem natus ullam possimus excepturi placeat, obcaecati assumenda
                 voluptatum voluptates, consequatur exercitationem.</p>
@@ -53,14 +54,38 @@
                 <img class="icons" src="/Icons/spring-boot-svgrepo-com.svg" alt="Spring Boot Vector" />
                 <p>Spring Boot</p>
             </div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
-            <div>5</div>
-            <div>6</div>
-            <div>7</div>
-            <div>8</div>
-            <div>9</div>
+            <div>
+                <img class="icons" src="/Icons/java-svgrepo-com.svg" alt="Java Vector" />
+                <p>Java</p>
+            </div>
+            <div>
+                <img class="icons" src="/Icons/react-svgrepo-com.svg" alt="React Vector" />
+                <p>React</p>
+            </div>
+            <div>
+                <img class="icons" src="/Icons/bem-svgrepo-com.svg" alt="BEM Vector" />
+                <p>BEM</p>
+            </div>
+            <div>
+                <img class="icons" src="/Icons/sass-svgrepo-com.svg" alt="Sass Vector" />
+                <p>SCSS</p>
+            </div>
+            <div>
+                <img class="icons" src="/Icons/javascript-fill-svgrepo-com.svg" alt="Javascript Vector" />
+                <p>JavaScript</p>
+            </div>
+            <div>
+                <img class="icons" src="/Icons/css3-02-svgrepo-com.svg" alt="CSS3 Vector" />
+                <p>CSS3</p>
+            </div>
+            <div>
+                <img class="icons" src="/Icons/html-124-svgrepo-com.svg" alt="HTML Vector" />
+                <p>HTML5</p>
+            </div>
+            <div>
+                <img class="icons" src="/Icons/git-svgrepo-com.svg" alt="Git Vector" />
+                <p>Git</p>
+            </div>
         </div>
     </section>
 
@@ -85,6 +110,15 @@
         </div>
 
         <div>
+            <img src="/Icons/Image.svg" alt="project image" />
+            <p>REACT</p>
+            <h3>Client Project</h3>
+            <p>Maecenas accusum tincidunt id et in ut diam sit.</p>
+            <button>Code &#60; / ></button>
+            <button>Preview &#60; / ></button>
+        </div>
+
+        <div class="desktop-only">
             <img src="/Icons/Image.svg" alt="project image" />
             <p>REACT</p>
             <h3>Client Project</h3>

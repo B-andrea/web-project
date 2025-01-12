@@ -50,8 +50,8 @@ h1 {
 }
 
 .icons {
-  height: 120px;
-  width: 120px;
+  height: 72px;
+  width: auto;
 }
 
 .para-beanie {
@@ -74,9 +74,22 @@ footer p {
 }
 
 @media only screen and (max-width: 390px) {
-  .header,
-  .cartoon-guy {
+  .desktop-only {
     display: none;
+  }
+}
+@media only screen and (min-width: 391px) {
+  .mobile-only {
+    display: none;
+  }
+  .about-me {
+    display: flex;
+    flex-direction: row;
+  }
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
   }
 }
 .cartoon-guy {
