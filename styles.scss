@@ -27,6 +27,11 @@
     padding: 60px;
 }
 
+.cartoon-guy {
+    height: 500px;
+    width: auto;
+}
+
 .about-me {
     display: flex;
     flex-direction: column;
@@ -63,8 +68,20 @@ h1 {
 
 }
 
+.projects {
+
+    margin-bottom: 70px;
+    margin-top: 30px;
+
+}
+
+.projects-title {
+    text-align: center;
+}
+
 footer {
     background-color: black;
+    height: 216px;
 
     p {
         color: white;
@@ -72,21 +89,36 @@ footer {
 }
 
 .footer-icons {
-    height: 40px;
-    width: 40px;
+    height: 25px;
+    width: auto;
     background-color: white;
     border-radius: 50%;
-    padding: 15px;
+    margin-right: 10px;
+    padding: 8px;
 }
 
-// Any CSS want for mobile mode, add in here
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+
+}
+
+.e-mail {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+// Any CSS want for mobile mode
 @media only screen and (max-width: 390px) {
     .desktop-only {
         display: none;
     }
 }
 
-// Any CSS want for desktop mode, add in here
+// Any CSS want for desktop mode
 @media only screen and (min-width: 391px) {
     .mobile-only {
         display: none;
@@ -102,10 +134,14 @@ footer {
         flex-direction: row-reverse;
         justify-content: space-evenly;
     }
-}
+
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        justify-items: center;
+
+    }
 
 
-.cartoon-guy {
-    height: 500px;
-    width: auto;
 }
