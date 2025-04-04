@@ -47,6 +47,7 @@ h1 {
   width: 300px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 30px;
 }
 
 .container {
@@ -64,12 +65,20 @@ h1 {
 }
 
 .projects {
+  display: flex;
+  justify-content: center;
   margin-bottom: 70px;
   margin-top: 30px;
 }
 
 .projects-title {
   text-align: center;
+}
+
+.project-image {
+  height: 400px;
+  width: 400px;
+  border-radius: 30px;
 }
 
 footer {
@@ -115,8 +124,6 @@ footer div img {
     justify-content: space-evenly;
   }
   .projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 40px;
     justify-items: center;
   }
